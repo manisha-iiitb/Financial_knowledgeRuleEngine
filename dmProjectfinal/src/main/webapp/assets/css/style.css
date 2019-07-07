@@ -1,0 +1,23 @@
+.container-fluid #result {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+#result
+{
+ margin:2%;
+/*  margin-right:2%; */
+ color: #f1f1f1;
+/*  width:90%; */
+ overflow-x:hidden;
+}
+
+.btn-success 
+{
+	background-color:black;
+}

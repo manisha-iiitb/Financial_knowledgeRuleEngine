@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" href="">
+	 <meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link href="css/main.css" type="text/css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<title>Register </title>
+</head>
+
+<body background="assets/images/background1.jpg"
+	style="background-repeat: no-repeat; background-size: cover;  overflow-x:hidden;">
+
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+		<a class="navbar-brand" href="#">Finance</a>
+		<ul class="navbar-nav ml-auto">
+	<!--		<li class="nav-item"><a class="nav-link" href="http://localhost:8080/Project/PortfolioAnalysis.html">Portfolio Analysis</a>
+			</li>
+			<li class="nav-item"><a class="nav-link" href="http://localhost:8080/Project/Calculation.html">Calculation</a></li>
+  	<li class="nav-item"><a class="nav-link"
+				href="http://localhost:8080/Project/Update.html">Update Profile</a></li>
+										<button  type="button" id='logout' class="nav-item">Log out</button>
+			-->
+		</ul>
+	</nav>
+
+	 <div class="container-fluid" style="margin-top: 6%; width: 100%;">
+
+        
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-4" ></div>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+            	<form>
+            		<h1>Registration Page</h1>
+            
+             <div class="form-group">
+					    <label for="exampleInputPassword2">Name</label>
+					    <input type="text" class="form-control" id="name" placeholder="Name">
+					  </div>
+					   <div class="form-group">
+					    <label for="exampleInputPassword2">Age</label>
+					    <input type="text" class="form-control" id="age" placeholder="Age">
+					  </div>
+					   <div class="form-group">
+					    <label for="exampleInputPassword2">E-mail Id</label>
+					    <input type="text" class="form-control" id="email" placeholder="Email Id">
+					  </div>
+					  <div class="form-group">
+					    <label for="exampleInputPassword2">Income</label>
+					    <input type="text" class="form-control" id="income" placeholder="Income ">
+					  </div>
+					  <div class="form-group">
+					    <label for="exampleInputAmount2">Savings</label>
+					    <input type="text" class="form-control" id="savings" placeholder="Savings">
+					  </div>
+				<div class="form-group">
+						<input type="radio" name="emp" value="Self Employed" id="se">
+						Self Employed<br> <input type="radio" name="emp"
+							value="Government Employee" id="ge"> Government Employee<br>
+					</div>
+						<fieldset>
+
+							<p>
+								<label>Select Category</label> <select id="category"
+									class="form-control">
+
+									<option value="regular">Regular Citizen</option>
+									<option value="senior">Senior Citizen</option>
+
+								</select>
+							</p>
+						</fieldset>
+					 <div class="form-group">
+					    <label for="exampleInputAmount2">Password</label>
+					    <input type="password" class="form-control" id="password" placeholder="Password">
+					  </div>
+					  <button type="button" id = 'Submit' class="btn btn-success btn-block">Submit</button>
+					  
+					  
+					</form>
+            </div>
+        </div>
+    </div>
+    
+    <div id="result"></div>
+    
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+ 
+<script src="assets/js/register.js"></script>
+</body>
+</html>

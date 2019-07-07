@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" href="">
+	 <meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <title>Stock</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link href="css/main.css" type="text/css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<title>Stock </title>
+</head>
+
+<body background="assets/images/background1.jpg"
+	style="background-repeat: no-repeat; background-size: cover;  overflow-x:hidden;">
+
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+		<a class="navbar-brand" href="#">Finance</a>
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item"><a class="nav-link" href="http://localhost:8080/Project/PortfolioAnalysis.html">Portfolio Analysis</a>
+			</li>
+			<li class="nav-item"><a class="nav-link" href="http://localhost:8080/Project/Calculation.html">Calculation</a></li>
+	<li class="nav-item"><a class="nav-link"
+				href="http://localhost:8080/Project/Update.html">Update Profile</a></li>			<button  type="button" id='logout' class="nav-item">Log out</button>
+			
+		</ul>
+	</nav>
+
+	 <div class="container-fluid" style="margin-top: 6%; width: 100%;">
+
+        
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-4" ></div>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+            	<form>
+            		<h1>P/E Ratio</h1>
+					  <div class="form-group">
+			<!-- 	    <label for="exampleInputEmail1">Company Name</label>
+					    <input type="text" class="form-control" id="companyname" placeholder="Company Name"> -->	
+					  </div>
+					      <form>
+       <fieldset>
+          
+          <p>
+             <label>Select Company</label>
+             <select id = "drop"class="form-control">
+               </select>
+          </p>
+       </fieldset>
+    </form>
+            
+					  <div class="form-group">
+					    <label for="exampleInputPassword1">Current Stock Price</label>
+					    <p id="cps"></p>
+<!-- 					    <input type="text" class="form-control" id="cps" placeholder="Enter Current Stock Price">
+ -->					  </div> 
+				 <div class="form-group">
+					    <label for="exampleInputPassword1">Earning per Share</label>
+					    <p id="eps"></p>
+<!-- 					    <input type="text" class="form-control" id="cps" placeholder="Enter Current Stock Price">
+ -->					  </div> 
+					  <button type="button" id = 'Submit' class="btn btn-success btn-block">Submit</button>
+					 <br></br> 
+					  
+					</form>
+            
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4" ></div>
+        </div>
+
+    </div>
+    
+    </div>
+    <div align="center" id="result">
+	 
+	</div>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+ 
+<script src="assets/js/stock.js"></script>
+</body>
+</html>
